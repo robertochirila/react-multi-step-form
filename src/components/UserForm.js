@@ -52,22 +52,20 @@ export class UserForm extends Component {
         );
       case 2:
         return (
-            <h1></h1>
-          /*<FormPersonalDetails
+          <FormPersonalDetails
             nextStep={this.nextStep}
             prevStep={this.prevStep}
             handleChange={this.handleChange}
             values={values}
-          />*/
+          />
         );
       case 3:
         return (
-            <h1></h1>
-          /*<Confirm
+          <Confirm
             nextStep={this.nextStep}
             prevStep={this.prevStep}
             values={values}
-          />*/
+          />
         );
       case 4:
         return <Success />;
